@@ -1,6 +1,7 @@
 require "http"
 require "json"
 require "active_support/all"
+require "ascii_charts"
 
 def float_to_percent(input)
 input = (input * 100).to_fs(:percentage, { :precision => 0 } )
