@@ -10,6 +10,9 @@ end
 pirate_weather_key = ENV.fetch("PIRATE_WEATHER_KEY")
 gmaps_key = ENV.fetch("GMAPS_KEY")
 
+puts "--------------------------
+Will you need an umbrella?
+--------------------------"
 pp "What is your location?"
 user_location = gets.capitalize.chomp
 
